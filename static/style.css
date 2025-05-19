@@ -15,3 +15,28 @@ input.form-control {
 button.btn {
     min-width: 120px;
 }
+
+
+
+
+/* Responsive tweaks */
+input.form-control {
+    max-width: 600px;
+    margin: auto;
+}
+
+#loading-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
