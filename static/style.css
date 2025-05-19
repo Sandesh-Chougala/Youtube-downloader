@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    color: #f8f9fa;
+}
+
+input.form-control {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+button.btn {
+    min-width: 120px;
+}
